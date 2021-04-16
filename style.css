@@ -1,0 +1,58 @@
+body{
+    background-image: url("./background.jpg");
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+form{
+    border: 1px solid white;
+    width: 50%;
+    padding: 10px;
+    margin-top: 50px;
+    margin-left: 300px;
+    margin-bottom: 0;
+}
+img{
+    margin:  10px;
+    width: 100px;
+    padding:10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+input {
+    padding: 10px;
+    font-size: 20px;
+    box-sizing:border-box;
+    width:100%; 
+    margin: 2px;
+    background-color:transparent;
+    color: White;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-top: black;
+    border-left: black;
+    border-right: black;
+
+}
+input:hover{
+    background-color:white;
+    color: black;
+}
+div{
+    border: 0.5px solid white !important;
+    margin: 5px;
+    border-bottom: 0px !important;
+}
+a{
+padding:0;
+text-align:center;
+color: gray;
+}
+a:hover{
+    color:white;
+}
+.pass{
+    margin:05px; 
+    opacity:60%;
+}
+.pass:hover{
+    opacity: 100%;
+}
